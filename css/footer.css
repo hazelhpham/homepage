@@ -1,0 +1,73 @@
+.footer{
+  width:100%;
+}
+.main-footer{
+  display:flex;
+  
+}
+.social-media-connect{
+  margin-left:7%;
+  width:60%;
+  display:block;
+}
+.discount{
+  font-size:1.3vw;
+  width:100%;
+  font-weight:bold;
+  margin-bottom:1%;
+}
+.email-input{
+  width:100%;
+  margin-bottom:1%;
+  
+}
+.email-input input{
+  box-sizing:border-box;
+  width:40%;
+  height: 2.0vw;
+}
+.email-input button{
+  color:white;
+  background-color:black;
+  padding:0.3%;
+  font-size:1.2vw;
+  border:1px solid black;
+}
+.icon-list{
+  display:flex;
+  width:80%;
+}
+.icon{
+  width:7%;
+}
+
+.customer-care{
+  font-size: 1vw;
+  padding-left:14%;
+}
+.customer-care h2{
+  font-size: 1.2vw;
+  margin-bottom:7%;
+  font-weight:bold;
+}
+.customer-care-item,.company-info-item{
+  list-style:none;
+  text-transform:none;
+  margin-bottom:1.5%;
+}
+.customer-care-item a, .company-info-item a{
+  text-decoration:none;
+  color:black;
+}
+.side-footer{
+  width:100%;
+}
+.company-info{
+  margin-top:1%;
+  justify-content:center;
+  display:flex;
+}
+.company-info-item{
+  padding:1%;
+  font-size:1vw;
+}

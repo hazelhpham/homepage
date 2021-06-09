@@ -1,0 +1,27 @@
+.second-home{
+  width:100%;
+  display:flex;
+  color:white;
+  font-weight:bold;
+  font-size:3vw;
+  margin-top:-0.5%;
+}
+.letter{
+ position:absolute;
+ left:28%;
+ top:45%;
+  
+}
+.left-main{
+  width:48%;
+}
+.img-left{
+  max-height: 780px;
+  max-width:780px;
+  position:relative;
+}
+.img-left img{
+  width:100%;
+  height:90%;
+}
+

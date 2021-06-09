@@ -1,0 +1,44 @@
+.main-home-content{
+  width:100%;
+  
+}
+.first-home{
+  width:100%;
+  display:flex;
+}
+.side-menu{
+  letter-spacing: 0.2vw;
+  position:absolute;
+  top:10%;
+  width:30%;
+  left:3%;
+}
+
+.side-menu-item{
+  font-size: 1vw;
+  text-transform:uppercase;
+  list-style:none;
+  margin-bottom:3%;
+  
+}
+.side-menu-item a{
+  
+  text-decoration:none;
+  color:black;
+}
+.main-photo{
+  max-height:800px;
+  max-width:1500px;
+  position:relative;
+}
+.main-photo img{
+  width:100%;
+  height:100%;
+}
+.main-logo{
+  position:absolute;
+  font-size:3.3vw;
+  font-weight:bold;
+  left:40%;
+  top:39%;
+}
