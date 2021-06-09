@@ -18,7 +18,7 @@
 }
 .email-input{
   width:100%;
-  margin-bottom:1%;
+  margin-bottom:2%;
   
 }
 .email-input input{
@@ -29,16 +29,23 @@
 .email-input button{
   color:white;
   background-color:black;
-  padding:0.3%;
+  padding:0.5%;
   font-size:1.2vw;
   border:1px solid black;
 }
 .icon-list{
   display:flex;
-  width:80%;
+  width:30%;
+ justify-content:space-between;
 }
 .icon{
-  width:7%;
+  width:8%;
+  
+}
+.icon a i{
+  font-size:1.5vw;
+  color:black;
+  
 }
 
 .customer-care{
@@ -63,11 +70,12 @@
   width:100%;
 }
 .company-info{
-  margin-top:1%;
+  margin-top:6%;
   justify-content:center;
   display:flex;
 }
 .company-info-item{
   padding:1%;
   font-size:1vw;
+  border-right: 2px solid black;
 }

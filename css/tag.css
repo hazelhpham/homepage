@@ -1,8 +1,9 @@
 .tag-photos{
     width:100%;
     text-align:center;
-    margin-bottom:1%;
+    margin:1%;
     font-size: 1.1vw;
+    opacity:0.7;
 }
 .more-products{
     display:flex;
