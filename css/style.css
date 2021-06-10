@@ -29,5 +29,186 @@ html, body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+/* main content  */
+.main-home-content{
+    width:100%;
+    
+  }
+  .first-home{
+    width:100%;
+    display:flex;
+  }
+  .side-menu{
+    letter-spacing: 0.2vw;
+    position:absolute;
+    top:18%;
+    width:30%;
+    left:3%;
+  }
+  
+  .side-menu-item{
+    font-size: 1vw;
+    text-transform:uppercase;
+    list-style:none;
+    margin-bottom:6%;
+    
+  }
+  .side-menu-item a{
+    
+    text-decoration:none;
+    color:black;
+  }
+  .main-photo{
+    max-height:800px;
+    max-width:1500px;
+    position:relative;
+  }
+  .main-photo img{
+    width:100%;
+    height:100%;
+  }
+  .main-logo{
+    position:absolute;
+    font-size:3.3vw;
+    font-weight:bold;
+    top:40%;
+    left:40%;
+    
+  }
 
 
+  .second-home{
+    width:100%;
+    display:flex;
+    color:white;
+    font-weight:bold;
+    font-size:3vw;
+    margin-top:-0.5%;
+  }
+  .letter{
+   position:absolute;
+   left:28%;
+   top:45%;
+    
+  }
+
+  .img-left{
+    max-height: 780px;
+    max-width:780px;
+    position:relative;
+  }
+  .img-left img{
+    width:100%;
+    height:90%;
+  }
+  
+  .right-main{
+    width:50%;
+  }
+  .right-main h3{
+    margin-left:18%;
+  }  
+
+
+  /* Tag more people and display more products */
+
+.tag-photos{
+    width:100%;
+    text-align:center;
+    margin:1%;
+    font-size: 1.1vw;
+    letter-spacing:0.1vw;
+    opacity:0.7;
+}
+.more-products{
+    display:flex;
+}
+
+.img-more-products img{
+    width:100%;
+    height:85%;
+}
+
+/* 
+Footer */
+.footer{
+    width:100%;
+  }
+  .main-footer{
+    display:flex;
+    
+  }
+  .social-media-connect{
+    margin-left:7%;
+    width:60%;
+    display:block;
+  }
+  .discount{
+    font-size:1.3vw;
+    width:100%;
+    font-weight:bold;
+    margin-bottom:1%;
+  }
+  .email-input{
+    width:100%;
+    margin-bottom:2%;
+    
+  }
+  .email-input input{
+    box-sizing:border-box;
+    width:40%;
+    height: 2.0vw;
+  }
+  .email-input button{
+    color:white;
+    background-color:black;
+    padding:0.5%;
+    font-size:1.2vw;
+    border:1px solid black;
+  }
+  .icon-list{
+    display:flex;
+    width:30%;
+   justify-content:space-between;
+  }
+  .icon{
+    width:8%;
+    
+  }
+  .icon a i{
+    font-size:1.5vw;
+    color:black;
+    
+  }
+  
+  .customer-care{
+    font-size: 1vw;
+    padding-left:14%;
+  }
+  .customer-care h2{
+    font-size: 1.2vw;
+    margin-bottom:7%;
+    font-weight:bold;
+  }
+  .customer-care-item,.company-info-item{
+    list-style:none;
+    text-transform:none;
+    margin-bottom:1.5%;
+  }
+  .customer-care-item a, .company-info-item a{
+    text-decoration:none;
+    color:black;
+  }
+  .side-footer{
+    width:100%;
+  }
+  .company-info{
+    margin-top:6%;
+    justify-content:center;
+    display:flex;
+  }
+  .company-info-item{
+    padding:1%;
+    font-size:1vw;
+    border-right: 2px solid black;
+  }
